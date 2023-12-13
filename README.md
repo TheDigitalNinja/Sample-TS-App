@@ -82,6 +82,26 @@ Here's how you can use the healthcheck endpoint:
 curl http://localhost:3000/health
 ```
 
+## Docker
+
+This application includes a Dockerfile that you can use to build a Docker image of the application. Here's how you can do it:
+
+```sh
+docker build -t sample-ts-app .
+```
+
+This will build a Docker image of the application and tag it as `sample-ts-app`.
+
+To run the application in a Docker container, use:
+
+```sh
+docker run -p 3000:3000 sample-ts-app
+```
+
+This will start a Docker container from the my-application image and map port 3000 in the container to port 3000 on your machine.
+
+You can then access the application at [http://localhost:3000](http://localhost:3000).
+
 ## Editing the Files
 
 You can edit the files in any text editor. If you're using Visual Studio Code, the workspace settings are already configured for you.
