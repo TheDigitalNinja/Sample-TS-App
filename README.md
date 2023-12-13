@@ -2,6 +2,16 @@
 
 This is a Node.js application built with Express and TypeScript.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Running the Application](#running-the-application)
+- [Running Tests](#running-tests)
+- [Linting](#linting)
+- [Healthcheck Endpoint](#healthcheck-endpoint)
+- [Editing the Files](#editing-the-files)
+
 ## Prerequisites
 
 - Node.js
