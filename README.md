@@ -9,6 +9,7 @@ This is a Node.js application built with Express and TypeScript.
 - [Running the Application](#running-the-application)
 - [Running Tests](#running-tests)
 - [Linting](#linting)
+- [Docker](#docker)
 - [Healthcheck Endpoint](#healthcheck-endpoint)
 - [Editing the Files](#editing-the-files)
 
