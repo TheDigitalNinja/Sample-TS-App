@@ -11,7 +11,6 @@ This is a Node.js application built with Express and TypeScript.
 - [Linting](#linting)
 - [Docker](#docker)
 - [Healthcheck Endpoint](#healthcheck-endpoint)
-- [Editing the Files](#editing-the-files)
 
 ## Prerequisites
 
@@ -102,9 +101,3 @@ docker run -p 3000:3000 sample-ts-app
 This will start a Docker container from the my-application image and map port 3000 in the container to port 3000 on your machine.
 
 You can then access the application at [http://localhost:3000](http://localhost:3000).
-
-## Editing the Files
-
-You can edit the files in any text editor. If you're using Visual Studio Code, the workspace settings are already configured for you.
-
-Remember to run the tests and the linter before committing your changes.
