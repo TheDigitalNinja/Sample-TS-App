@@ -1,7 +1,7 @@
 {
   "name": "sample-ts-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Just a sample TS App for testing deployments and such",
   "main": "index.js",
   "scripts": {
     "start": "tsc && node ./dist/src/index.js",
@@ -11,7 +11,7 @@
     "lint": "eslint \"src/**/*.ts\""
   },
   "keywords": [],
-  "author": "",
+  "author": "Russell Perkins",
   "license": "ISC",
   "dependencies": {
     "@types/express": "^4.17.21",
