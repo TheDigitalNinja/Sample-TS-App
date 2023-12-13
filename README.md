@@ -1,4 +1,5 @@
 # Sample TS App
+![CI](https://github.com/TheDigitalNinja/Sample-TS-App/actions/workflows/ci.yml/badge.svg)
 
 This is a Node.js application built with Express and TypeScript.
 
