@@ -1,8 +1,8 @@
 # Use an official Node.js runtime as the base image
-FROM node:16
+FROM node:20-alpine
 
 # Set the working directory in the Docker image
-WORKDIR /usr/src/app
+WORKDIR /app
 
 # Copy package.json and package-lock.json into the image
 COPY package*.json ./
@@ -17,4 +17,4 @@ COPY . .
 RUN npm run build
 
 # Set the command to start your application
-CMD [ "node", "./dist/src/index.js" ]
+CMD [ "node", "./dist/index.js" ]
